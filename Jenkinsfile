@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                sh 'printenv'
                 echo 'Building.. more'
             }
         }
